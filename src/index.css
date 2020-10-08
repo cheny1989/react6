@@ -1,13 +1,76 @@
+
 body {
+  background-color: #FFCC00;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.firstTitle{
+  font-weight: 100;
+}
+
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+ul.header li a:hover{
+  color: #FFCC00;
+}
+
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+.active {
+  background-color: #0099FF;
+}
+
+.buttonHeader{
+  border-right: black solid 1.5px;
+}
+
+.sizaOfImage{
+  width: 250px;
+}
+
+.btnStyle{
+  background-color: #FFCC00;
+  color: black;
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.btnStyle:hover{
+  background-color: #0099FF;
+  color: white;
 }
